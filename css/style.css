@@ -1,0 +1,134 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/ondas.svg);
+    background-size:cover;
+    background-position-y: 55vh;
+    background-repeat: no-repeat;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    position: relative;
+    top: 15vh;
+}
+
+.row{
+    padding: 0;
+    margin: 0;
+
+}
+.col{
+    margin: 0;
+    margin: 0;
+    /* vertical-align: inherit; */
+}
+
+.n2{
+    background-color: white;
+}
+
+body, .login-text{
+    background-color: #22193F;
+}
+
+.logo{
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+.mb-3{
+    position: relative;
+}
+
+/*ICONO de bootstrap*/
+svg{
+    position: absolute;
+    left: 15px;
+    top: 11px; 
+   transform: translateY(0);
+}
+
+/*Para modificar el padding de mi INPUT*/
+.form-control{
+    padding-left: 35px;
+    border-color: #C4C4C4;
+  }
+
+  .input-group-text{
+    background-color: rgb(211, 83, 83);
+    border: none;
+  }
+
+.btn{
+    background-color:#E21982!important;
+    color: white !important;
+    width: 80%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+a, .btn{
+    font-weight: bold;
+}
+
+#login-text{
+    text-align: start;
+    padding-bottom:30px;    
+    padding-top: 35px;
+}
+h1{
+    font-size: 28px;
+    font-weight: 900;
+}
+
+#forget-password{
+    text-align: right;
+    margin:0;
+}
+
+a{
+   color: #E21982;
+}
+
+a:hover{
+    color:#e21981a9;
+}
+
+.error {
+    color: red;
+    font-size: 14px; 
+    margin-top: 5px;
+}
+
+
+@media screen and (min-width: 220px) and (max-width: 1023px) {
+    .logo{
+        position: absolute;
+        top: 25%;
+        left: 30%;
+    }
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .logo{
+        position: absolute;
+        top: 35%;
+        left: 24%;
+    }
+
+    #forget-password{
+        font-size: 12px;
+    }
+
+
+}
